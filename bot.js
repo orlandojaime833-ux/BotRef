@@ -15,7 +15,7 @@ const supabase = createClient(
 
 const XROCKET_TOKEN = process.env.XROCKET_TOKEN;        // ex: 2b95ea2ad1f9a2d53563a05d4
 const XROCKET_API   = 'https://pay.xrocket.tg';
-const TON_TO_TON    = parseFloat(process.env.TON_TO_TON || '1.1');
+const TON_TO_EUR    = parseFloat(process.env.TON_TO_EUR || '1.1');
 
 // ── Estado em memória (wizard de criação de tarefa) ─────────────
 const wizards = {}; // chatId → { step, data }
